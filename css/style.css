@@ -1,0 +1,49 @@
+
+body {
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-intro {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.game-intro p {
+    font-size: 18px;
+    font-family: "Verdana"
+}
+
+.logo-img {
+    width: 250px;
+}
+
+.arrows-img {
+    width: 150px;
+}
+
+body button {
+    font-size: 30px;
+    background-color: rgb(25, 87, 201);
+    color: #fff;
+    padding: 20px 40px;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+} 
+
+.hide {
+    display: none;
+}
+
+
+#canvas {
+    border: 4px solid black;
+    margin: 0 auto 0 auto;
+    display: block;
+}
